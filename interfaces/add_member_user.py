@@ -47,6 +47,6 @@ class addMemberUser:
             self.log.error('新增会员账户接口异常:{}，请检查'.format(str(e)))
 
 
-# if __name__ == '__main__':
-#     res = addMemberUser().add_member_user()
-#     print(res)
+if __name__ == '__main__':
+    res = addMemberUser().add_member_user()
+    print(res)

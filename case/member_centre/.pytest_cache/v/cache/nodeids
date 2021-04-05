@@ -1,5 +1,4 @@
 [
-  "test_member_noOperate_list.py::testMemberList::test_member_list_1_4",
-  "test_member_noOperate_list.py::testMemberList::test_member_list_2_0",
-  "test_member_noOperate_list.py::testMemberList::test_member_list_3_"
+  "test_add_member_user.py::testAddMember::test_add_member_1_0",
+  "test_add_member_user.py::testAddMember::test_add_member_2_"
 ]

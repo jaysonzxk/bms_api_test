@@ -1,4 +1,6 @@
 {
+  "test_add_member_user.py::testAddMember::test_add_member_1_0": true,
+  "test_add_member_user.py::testAddMember::test_add_member_2_": true,
   "test_edit_user_info.py::testEditUserInfo": true,
   "test_member_list.py::testMemberList::test_member_list_1_120891": true
 }

@@ -13,22 +13,22 @@ from common.get_expect_data import get_expect
 
 
 @ddt
-class testMemberList(unittest.TestCase, addMemberUser):
+class testAddMember(unittest.TestCase, addMemberUser):
 
     @classmethod
     def setUpClass(cls) -> None:
         cls.log = Log()
         cls.data = addMemberUser().test_data
 
-    @data(*(get_expect('bms_test_data.xlsx', 'memberCentre', 0)))
-    def test_member_list(self, test_data):
+    @data(*(get_expect('bms_test_data.xlsx', 'memberCentre', 1)))
+    def test_add_member(self, test_data):
         """
-        测试获取会员列表接口
+        测试新增会员接口
         :param test_data:
         :return:
         """
         res = addMemberUser().add_member_user()
-        results = [res['data']['total'], res['code'], res['msg']]
+        results = [res['code'], res['msg']]
         self.log.info('----------测试开始----------')
         self.log.info('测试场景：[{}]'.format(self.data['module']))
         self.log.info('测试断言-->期望值/校验值[{}]'.format(test_data))
