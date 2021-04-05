@@ -1,4 +1,4 @@
 [
-  "test_role_list.py::testResetGoogle::test_reset_google_1_0",
-  "test_role_list.py::testResetGoogle::test_reset_google_2_"
+  "test_log_list.py::testLogGoogle::test_reset_google_1_0",
+  "test_log_list.py::testLogGoogle::test_reset_google_2_"
 ]

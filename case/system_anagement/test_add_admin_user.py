@@ -34,7 +34,7 @@ class testAddAdminUser(unittest.TestCase, addAdminUser):
         self.log.info('测试断言-->期望值/校验值[{}]'.format(test_data))
         self.log.info('测试断言-->实际值[{}]'.format(res))
         self.log.info('请求参数:{}'.format(self.data['data']))
-        self.log.info('请求接口:{}'.format(self.data['url']))
+        self.log.info('请求接口:{}'.format(addAdminUser().url))
         self.log.info('请求方法:{}'.format(self.data['method']))
         self.log.info('响应结果:{}'.format(res))
         self.assertIn(test_data, results, msg='测试不通过，失败原因：%s not in %s' %

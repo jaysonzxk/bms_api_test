@@ -17,9 +17,9 @@ class databaseOperations:
         self.date_today_end = datetime.datetime.today().strftime('%Y-%m-%d 23:59:59')
         # self.user_id = userInfo().get_user_info()['data']['userId']
 
-    def select_admin_user(self):
+    def select_user(self):
         """
-        查询后台用户
+        查询用户
         :return:
         """
         sql = "SELECT * FROM sys_user WHERE username = 'auto_test'"
@@ -27,12 +27,22 @@ class databaseOperations:
         username = self.cursor.fetchall()
         return username
 
-    def select_admin_userid(self):
+    def select_member_sum(self, operate):
         """
-        查询后台管理用户userid
+        查询数据sys_user所有用户
         :return:
         """
-        sql = "SELECT user_id FROM sys_user WHERE username = 'admin'"
+        sql = "SELECT count(1) FROM sys_user WHERE role_code = 'ROLE_FRONT' AND is_operate = {}".format(operate)
+        self.cursor.execute(sql)
+        user_sum = self.cursor.fetchall()[0][0]
+        return user_sum
+
+    def select_userid(self, name):
+        """
+        查询用户userid
+        :return:
+        """
+        sql = "SELECT user_id FROM sys_user WHERE username = '{}'".format(name)
         self.cursor.execute(sql)
         user_id = self.cursor.fetchall()[0][0]
         return user_id
