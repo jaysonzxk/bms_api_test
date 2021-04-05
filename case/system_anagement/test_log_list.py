@@ -12,7 +12,7 @@ from common.get_expect_data import get_expect
 
 
 @ddt
-class testLogGoogle(unittest.TestCase, logList):
+class testLogList(unittest.TestCase, logList):
 
     @classmethod
     def setUpClass(cls) -> None:
@@ -20,7 +20,7 @@ class testLogGoogle(unittest.TestCase, logList):
         cls.data = logList().test_data
 
     @data(*(get_expect('bms_test_data.xlsx', 'systemManagement', 5)))
-    def test_reset_google(self, test_data):
+    def test_log_list(self, test_data):
         """
         测试获取用户操作日志列表接口
         :param test_data:

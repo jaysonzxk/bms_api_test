@@ -12,7 +12,7 @@ from common.get_expect_data import get_expect
 
 
 @ddt
-class testResetGoogle(unittest.TestCase, menuTree):
+class testMenuTree(unittest.TestCase, menuTree):
 
     @classmethod
     def setUpClass(cls) -> None:
@@ -20,7 +20,7 @@ class testResetGoogle(unittest.TestCase, menuTree):
         cls.data = menuTree().test_data
 
     @data(*(get_expect('bms_test_data.xlsx', 'systemManagement', 3)))
-    def test_reset_google(self, test_data):
+    def test_menu_tree(self, test_data):
         """
         测试获取bms后台菜单接口
         :param test_data:
