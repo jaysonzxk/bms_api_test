@@ -12,7 +12,7 @@ from common.get_expect_data import get_expect
 
 
 @ddt
-class testMemberList(unittest.TestCase, memberList):
+class testMemberisOperateList(unittest.TestCase, memberList):
 
     @classmethod
     def setUpClass(cls) -> None:
@@ -20,7 +20,7 @@ class testMemberList(unittest.TestCase, memberList):
         cls.data = memberList().test_data
 
     @data(*(get_expect('bms_test_data.xlsx', 'memberCentre', 0, keyword='user_sum', operate=0)))
-    def test_member_list(self, test_data):
+    def test_member_isOperate_list(self, test_data):
         """
         测试获取会员列表接口
         :param test_data:

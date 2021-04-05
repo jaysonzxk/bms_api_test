@@ -1,4 +1,5 @@
 [
-  "test_edit_user_info.py::testEditUserInfo::test_edit_user_info_1_0",
-  "test_edit_user_info.py::testEditUserInfo::test_edit_user_info_2_"
+  "test_member_noOperate_list.py::testMemberList::test_member_list_1_4",
+  "test_member_noOperate_list.py::testMemberList::test_member_list_2_0",
+  "test_member_noOperate_list.py::testMemberList::test_member_list_3_"
 ]
