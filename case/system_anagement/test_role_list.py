@@ -12,7 +12,7 @@ from common.get_expect_data import get_expect
 
 
 @ddt
-class testResetGoogle(unittest.TestCase, roleList):
+class testRoleList(unittest.TestCase, roleList):
 
     @classmethod
     def setUpClass(cls) -> None:
@@ -20,7 +20,7 @@ class testResetGoogle(unittest.TestCase, roleList):
         cls.data = roleList().test_data
 
     @data(*(get_expect('bms_test_data.xlsx', 'systemManagement', 4)))
-    def test_reset_google(self, test_data):
+    def test_role_list(self, test_data):
         """
         测试获取角色列表接口
         :param test_data:
