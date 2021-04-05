@@ -45,7 +45,7 @@ def run_case(allCase, reportName="report"):
     with open(report_abspath, 'wb') as f:
         runner = HTMLTestReport(stream=f,
                                 verbosity=2,
-                                title='app接口测试报告',
+                                title='bms接口测试报告',
                                 description='接口测试执行情况',
                                 tester='mask')
 
