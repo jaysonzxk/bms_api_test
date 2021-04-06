@@ -40,6 +40,3 @@ class menuTree:
             self.log.error('获取bms后台菜单接口异常:{}，请检查'.format(str(e)))
 
 
-# if __name__ == '__main__':
-#     res = menuTree().get_menu_tree()
-#     print(res)

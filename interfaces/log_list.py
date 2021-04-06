@@ -39,7 +39,3 @@ class logList:
         except Exception as e:
             self.log.error('bms后台获取用户操作日志列表接口异常:{}，请检查'.format(str(e)))
 
-
-# if __name__ == '__main__':
-#     res = logList().get_log_list()
-#     print(res)

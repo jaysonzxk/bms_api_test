@@ -1,4 +1,5 @@
 [
-  "test_add_member_user.py::testAddMember::test_add_member_1_0",
-  "test_add_member_user.py::testAddMember::test_add_member_2_"
+  "test_user_bet_details.py::testUserBetDetails::test_user_bet_details_1_9",
+  "test_user_bet_details.py::testUserBetDetails::test_user_bet_details_2_0",
+  "test_user_bet_details.py::testUserBetDetails::test_user_bet_details_3_"
 ]

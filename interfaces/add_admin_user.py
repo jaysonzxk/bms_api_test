@@ -45,6 +45,3 @@ class addAdminUser:
             self.log.error('新增bms后台管理用户接口异常:{}，请检查'.format(str(e)))
 
 
-if __name__ == '__main__':
-    res = addAdminUser().add_admin_user()
-    print(res)

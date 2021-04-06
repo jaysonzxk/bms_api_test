@@ -6,6 +6,8 @@ ide： PyCharm
 """
 import pymysql
 import datetime
+
+
 # from interfaces.user_info import userInfo
 
 
@@ -60,7 +62,27 @@ class databaseOperations:
             print(e)
             self.db.rollback()
 
+    def select_bet_details(self):
+        """
+        查询彩票注单数量
+        :return:
+        """
+        sql = """
+                     select * from zx_lottery_bet_0 where user_id='556' union                 
+                     select * from zx_lottery_bet_1 where user_id='556' union               
+                     select * from zx_lottery_bet_2 where user_id='556' union                 
+                     select * from zx_lottery_bet_3 where user_id='556' union                 
+                     select * from zx_lottery_bet_4 where user_id='556' union                 
+                     select * from zx_lottery_bet_5 where user_id='556' union                 
+                     select * from zx_lottery_bet_6 where user_id='556' union                 
+                     select * from zx_lottery_bet_7 where user_id='556' union                 
+                     select * from zx_lottery_bet_8 where user_id='556' union                 
+                     select * from zx_lottery_bet_9 where user_id='556'
+                """
+        self.cursor.execute(sql)
+        data = self.cursor.fetchall()
+        return len(data)
+
 
 # if __name__ == '__main__':
-#     res = databaseOperations().select_admin_userid()
-#     print(res)
+#     databaseOperations().select_bet_details()

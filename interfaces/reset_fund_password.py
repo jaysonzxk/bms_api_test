@@ -1,7 +1,7 @@
 """
 author： mask
-filename: edit_user_info.py
-datetime： 2021/4/5 16:17 
+filename: reset_login_password.py
+datetime： 2021/4/6 9:48 
 ide： PyCharm
 """
 from common.base import get_response, get_host
@@ -13,29 +13,26 @@ from common.tojsonstr import getJsonStr
 import json
 
 
-class editUserInfo:
+class resetUserFundPassword:
     """
-    会员中心--修改用户资料
+    会员中心--修改会员资金密码
     """
 
     def __init__(self):
         self.log = Log()
-        self.test_data = get_test_data('bms_test_data.xlsx', 'memberCentre', 3)
-        self.url = get_host('test') + self.test_data['url']
-        self.data = json.dumps(getUserInfo().get_user_info()['data'])
+        self.test_data = get_test_data('bms_test_data.xlsx', 'memberCentre', 5)
+        self.user_id = getUserInfo().get_user_info()['data']['userId']
+        self.url = get_host('test') + self.test_data['url'] + str(self.user_id) + '&passwordNew=1234'
+        self.data = self.test_data['data']
         self.header = json.loads(self.test_data['header'])
         self.header['authorization'] = getBmsToken().get_token()
         self.method = self.test_data['method']
 
-    def edit_user_info(self):
+    def reset_user_fund_password(self):
         """
-        bms后台修改用户资料
+        bms后台修改会员资金密码
         :return:
         """
-        if 'false' not in self.data:
-            self.data.replace('true', 'false')
-        else:
-            self.data.replace('false', 'true')
         try:
             resp = get_response(self.url, self.method, data=self.data, headers=self.header)  # 未解密接口返回
             resp_str = getJsonStr(resp.json()['data']).get_json_str()  # 解密接口返回数据
@@ -43,9 +40,4 @@ class editUserInfo:
             resp['data'] = resp_str['data']
             return resp
         except Exception as e:
-            self.log.error('bms后台获取用户资料接口异常:{}，请检查'.format(str(e)))
-
-
-# if __name__ == '__main__':
-#     res = editUserInfo().edit_user_info()
-#     print(res)
+            self.log.error('bms后台修改会员资金密码接口异常:{}，请检查'.format(str(e)))

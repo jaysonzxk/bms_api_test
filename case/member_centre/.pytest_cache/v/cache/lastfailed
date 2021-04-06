@@ -2,5 +2,10 @@
   "test_add_member_user.py::testAddMember::test_add_member_1_0": true,
   "test_add_member_user.py::testAddMember::test_add_member_2_": true,
   "test_edit_user_info.py::testEditUserInfo": true,
-  "test_member_list.py::testMemberList::test_member_list_1_120891": true
+  "test_member_list.py::testMemberList::test_member_list_1_120891": true,
+  "test_reset_user_password.py::testResetUserPwd::test_reset_user_pwd_2_True": true,
+  "test_user_bet_details.py::testResetUserPwd::test_reset_user_pwd_1_9": true,
+  "test_user_bet_details.py::testResetUserPwd::test_reset_user_pwd_2_0": true,
+  "test_user_bet_details.py::testResetUserPwd::test_reset_user_pwd_3_": true,
+  "test_user_bet_details.py::testUserBetDetails::test_user_bet_details_1_9": true
 }

@@ -41,6 +41,3 @@ class roleList:
             self.log.error('bms后台获取角色列表接口异常:{}，请检查'.format(str(e)))
 
 
-# if __name__ == '__main__':
-#     res = roleList().get_role_list()
-#     print(res)

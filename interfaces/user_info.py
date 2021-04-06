@@ -42,6 +42,3 @@ class getUserInfo:
             self.log.error('bms后台获取用户资料接口异常:{}，请检查'.format(str(e)))
 
 
-# if __name__ == '__main__':
-#     res = getUserInfo().get_user_info()
-#     print(res)

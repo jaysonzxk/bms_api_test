@@ -56,6 +56,3 @@ class memberList:
             self.log.error('bms后台获取所有会员列表接口异常:{}，请检查'.format(str(e)))
 
 
-if __name__ == '__main__':
-    res = memberList().get_member_noOperate_list()
-    print(res)

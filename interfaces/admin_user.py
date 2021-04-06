@@ -42,6 +42,3 @@ class adminUser:
             self.log.error('获取bms后台用户接口异常:{}，请检查'.format(str(e)))
 
 
-# if __name__ == '__main__':
-#     res = adminUser().get_admin_user()
-#     print(res)

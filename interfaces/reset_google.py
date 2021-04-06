@@ -42,6 +42,3 @@ class resetGoogle:
             self.log.error('bms后台用户重置接口异常:{}，请检查'.format(str(e)))
 
 
-# if __name__ == '__main__':
-#     res = resetGoogle().reset_google()
-#     print(res)

@@ -27,7 +27,7 @@ def get_host(env):
     获取请求host
     :return:
     """
-    with open(r'D:\work\app_api_test\config\host.json') as f:
+    with open(r'D:\work\bms_api_test\config\host.json') as f:
         f = json.loads(f.read())
     if env == 'test':
         return f['bms_test']
