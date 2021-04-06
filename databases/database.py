@@ -83,6 +83,119 @@ class databaseOperations:
         data = self.cursor.fetchall()
         return len(data)
 
+    def user_status_0(self):
+        """
+        获取用户状态(重置为0，未锁定状态)
+        :return:
+        """
+        sql_select = "SELECT lock_flag FROM sys_user WHERE username = 'miya30000'"
+        sql_update = "update sys_user set lock_flag = 0 WHERE username = 'miya30000'"
+        self.cursor.execute(sql_select)
+        status = self.cursor.fetchall()[0][0]
+        if status == 1:
+            self.cursor.execute(sql_update)
+            self.db.commit()
+
+    def user_status_1(self):
+        """
+        获取用户状态(重置为1，锁定状态)
+        :return:
+        """
+        sql_select = "SELECT lock_flag FROM sys_user WHERE username = 'miya30000'"
+        sql_update = "update sys_user set lock_flag = 1 WHERE username = 'miya30000'"
+        self.cursor.execute(sql_select)
+        status = self.cursor.fetchall()[0][0]
+        if status == 0:
+            self.cursor.execute(sql_update)
+            self.db.commit()
+
+    def select_bet_status(self):
+        """
+        查询会员投注状态(0禁止，1开启)
+        :return:
+        """
+        sql_select = "SELECT is_bet FROM sys_user WHERE username = 'miya30000'"
+        sql_update = "update sys_user set is_bet = 1 WHERE username = 'miya30000'"
+        self.cursor.execute(sql_select)
+        bet_status = self.cursor.fetchall()[0][0]
+        if bet_status == 0:
+            self.cursor.execute(sql_update)
+            self.db.commit()
+
+    def select_withdraw_status(self):
+        """
+        查询会员投注状态(0禁止，1开启)
+        :return:
+        """
+        sql_select = "SELECT is_withdraw FROM sys_user WHERE username = 'miya30000'"
+        sql_update = "update sys_user set is_withdraw = 1 WHERE username = 'miya30000'"
+        self.cursor.execute(sql_select)
+        bet_status = self.cursor.fetchall()[0][0]
+        if bet_status == 0:
+            self.cursor.execute(sql_update)
+            self.db.commit()
+
+    def select_fund_status(self):
+        """
+        查询会员资金状态(0开启，1冻结)
+        :return:
+        """
+        sql_select = "SELECT is_fund_freeze FROM sys_user WHERE username = 'miya30000'"
+        sql_update = "update sys_user set is_fund_freeze = 0 WHERE username = 'miya30000'"
+        self.cursor.execute(sql_select)
+        fund_status = self.cursor.fetchall()[0][0]
+        if fund_status == 1:
+            self.cursor.execute(sql_update)
+            self.db.commit()
+
+    def select_return_point_status(self):
+        """
+        查询会员返点状态(0禁止，1开启)
+        :return:
+        """
+        sql_select = "SELECT is_return_point FROM sys_user WHERE username = 'miya30000'"
+        sql_update = "update sys_user set is_return_point = 1 WHERE username = 'miya30000'"
+        self.cursor.execute(sql_select)
+        fund_status = self.cursor.fetchall()[0][0]
+        if fund_status == 0:
+            self.cursor.execute(sql_update)
+            self.db.commit()
+
+    def select_operate_status_0(self):
+        """
+        查询会员返点状态(0正式账号，1运营账号)
+        :return:
+        """
+        sql_select = "SELECT is_operate FROM sys_user WHERE username = 'miya30000'"
+        sql_update = "update sys_user set is_operate = 0 WHERE username = 'miya30000'"
+        self.cursor.execute(sql_select)
+        fund_status = self.cursor.fetchall()[0][0]
+        if fund_status == 1:
+            self.cursor.execute(sql_update)
+            self.db.commit()
+
+    def select_operate_status_1(self):
+        """
+        查询会员返点状态(0正式账号，1运营账号)
+        :return:
+        """
+        sql_select = "SELECT is_operate FROM sys_user WHERE username = 'miya30000'"
+        sql_update = "update sys_user set is_operate = 1 WHERE username = 'miya30000'"
+        self.cursor.execute(sql_select)
+        fund_status = self.cursor.fetchall()[0][0]
+        if fund_status == 0:
+            self.cursor.execute(sql_update)
+            self.db.commit()
+
+    def register_code(self):
+        """
+        注册码
+        :return:
+        """
+        sql = " SELECT count(1) FROM zx_user_register_code LIMIT 100000"
+        self.cursor.execute(sql)
+        code_nums = self.cursor.fetchall()[0][0]
+        return code_nums
 
 # if __name__ == '__main__':
-#     databaseOperations().select_bet_details()
+#     databaseOperations().select_withdraw_status()

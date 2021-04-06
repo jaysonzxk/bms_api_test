@@ -31,6 +31,10 @@ def get_expect(*args, keyword=None, operate=None, game_type=None, expect_name='e
         # 查询游戏注单总数
         res = databaseOperations().select_bet_details()
         expect_list.append(res)
+    elif keyword == 'register_code':
+        # 查询注册码总数
+        res = databaseOperations().register_code()
+        expect_list.append(res)
     if len(expect) > 1:
         for key, value in expect.items():
             expect_list.append(value)
