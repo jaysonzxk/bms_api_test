@@ -12,7 +12,7 @@ from common.get_expect_data import get_expect
 
 
 @ddt
-class testMemberisOperateList(unittest.TestCase, memberList):
+class testMemberIsOperateList(unittest.TestCase, memberList):
 
     @classmethod
     def setUpClass(cls) -> None:

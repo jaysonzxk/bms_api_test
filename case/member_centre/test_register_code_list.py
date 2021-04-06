@@ -23,7 +23,7 @@ class testRegisterCodeList(unittest.TestCase, registerCodeList):
     @data(*(get_expect('bms_test_data.xlsx', 'memberCentre', 18, keyword='register_code')))
     def test_register_code_list(self, test_data):
         """
-        测试禁止会员返点接口
+        测试注册码接口
         :param test_data:
         :return:
         """
