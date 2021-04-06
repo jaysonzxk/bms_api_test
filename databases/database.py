@@ -187,7 +187,7 @@ class databaseOperations:
             self.cursor.execute(sql_update)
             self.db.commit()
 
-    def register_code(self):
+    def register_code_nums(self):
         """
         注册码
         :return:
@@ -196,6 +196,16 @@ class databaseOperations:
         self.cursor.execute(sql)
         code_nums = self.cursor.fetchall()[0][0]
         return code_nums
+
+    def login_log_nums(self):
+        """
+        会员登录日志
+        :return:
+        """
+        sql = " SELECT count(1) FROM zx_user_login_log LIMIT 100000"
+        self.cursor.execute(sql)
+        log_nums = self.cursor.fetchall()[0][0]
+        return log_nums
 
 # if __name__ == '__main__':
 #     databaseOperations().select_withdraw_status()

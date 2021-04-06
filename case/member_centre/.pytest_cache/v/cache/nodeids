@@ -1,5 +1,4 @@
 [
-  "test_register_code_list.py::testRegisterCodeList::test_register_code_list_1_68401",
-  "test_register_code_list.py::testRegisterCodeList::test_register_code_list_2_0",
-  "test_register_code_list.py::testRegisterCodeList::test_register_code_list_3_"
+  "test_login_log.py::testLoginLog::test_login_log_1_0",
+  "test_login_log.py::testLoginLog::test_login_log_2_"
 ]

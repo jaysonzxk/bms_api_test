@@ -33,7 +33,10 @@ def get_expect(*args, keyword=None, operate=None, game_type=None, expect_name='e
         expect_list.append(res)
     elif keyword == 'register_code':
         # 查询注册码总数
-        res = databaseOperations().register_code()
+        res = databaseOperations().register_code_nums()
+        expect_list.append(res)
+    elif keyword == 'log':
+        res = databaseOperations().login_log_nums()
         expect_list.append(res)
     if len(expect) > 1:
         for key, value in expect.items():
