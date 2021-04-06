@@ -1,6 +1,6 @@
 """
 author： mask
-filename: test_register_code_list.py
+filename: test_1register_code_list.py
 datetime： 2021/4/6 16:06 
 ide： PyCharm
 """
@@ -10,6 +10,7 @@ from common.logger import Log
 from databases.database import databaseOperations
 from interfaces.register_code_list import registerCodeList
 from common.get_expect_data import get_expect
+from time import sleep
 
 
 @ddt
@@ -23,7 +24,7 @@ class testRegisterCodeList(unittest.TestCase, registerCodeList):
     @data(*(get_expect('bms_test_data.xlsx', 'memberCentre', 18, keyword='register_code')))
     def test_register_code_list(self, test_data):
         """
-        测试注册码接口
+        测试生成注册码接口
         :param test_data:
         :return:
         """
