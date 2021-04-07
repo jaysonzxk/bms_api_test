@@ -45,5 +45,3 @@ class addMemberUser:
             return resp
         except Exception as e:
             self.log.error('新增会员账户接口异常:{}，请检查'.format(str(e)))
-
-
