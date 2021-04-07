@@ -75,7 +75,6 @@ if __name__ == "__main__":
     run_case(all_case)  # 2 执行用例
     for i in tqdm(range(0, case_count)):
         time.sleep(0.01)
-    time.sleep(0.5)
     report_path = os.path.join(cur_path, "report")  # 用例文件
     report_list = os.listdir(report_path)
     report_file = get_report_file(report_path)  # 3 获取最新测试报告
