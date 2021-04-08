@@ -46,8 +46,10 @@ class testAddMember(unittest.TestCase, addMemberUser):
 
     @classmethod
     def tearDownClass(cls):
-        Log().info('正在重置数据库测试数据。。。。。。')
-        databaseOperations().delete_user()
+        Log().info('正在重置数据库(sys_user表)测试数据。。。。。。')
+        databaseOperations().delete_user('sys_user', 'username')
+        Log().info('正在重置数据库(zx_user_invite_code表)测试数据。。。。。。')
+        databaseOperations().delete_user('zx_user_invite_code', 'code_val')
 
 
 if __name__ == '__main__':

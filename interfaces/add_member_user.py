@@ -34,9 +34,11 @@ class addMemberUser:
         :return:
         """
         # 如果存在这个auto_test就先删除
-        if databaseOperations().select_user():
-            databaseOperations().delete_user()
-
+        if databaseOperations().select_user('sys_user', 'username'):
+            databaseOperations().delete_user('sys_user', 'username')
+            print(databaseOperations().delete_user('sys_user', 'username'))
+        if databaseOperations().select_user('zx_user_invite_code', 'code_val'):
+            databaseOperations().delete_user('zx_user_invite_code', 'code_val')
         try:
             resp = get_response(self.url, self.method, data=self.payload, headers=self.header)  # 未解密接口返回
             resp_str = getJsonStr(resp.json()['data']).get_json_str()  # 解密接口返回数据

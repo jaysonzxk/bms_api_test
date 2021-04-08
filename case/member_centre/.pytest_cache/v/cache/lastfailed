@@ -1,6 +1,6 @@
 {
-  "test_add_member_user.py::testAddMember::test_add_member_1_0": true,
-  "test_add_member_user.py::testAddMember::test_add_member_2_": true,
+  "test_disable_withdraw.py::testDisableWithdraw::test_disable_withdraw_1_0": true,
+  "test_disable_withdraw.py::testDisableWithdraw::test_disable_withdraw_2_\u7981\u6b62\u63d0\u73b0\u6210\u529f": true,
   "test_edit_user_info.py::testEditUserInfo": true,
   "test_login_log.py::testLoginLog::test_login_log_1_23942": true,
   "test_login_log.py::testLoginLog::test_login_log_1_23949": true,

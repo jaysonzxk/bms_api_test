@@ -33,8 +33,8 @@ class addAdminUser:
         新增bms后台管理用户
         :return:
         """
-        if databaseOperations().select_user():
-            databaseOperations().delete_user()
+        if databaseOperations().select_user('sys_user', 'username'):
+            databaseOperations().delete_user('sys_user', 'username')
         try:
             resp = get_response(self.url, self.method, data=json.dumps(self.payload), headers=self.header)  # 未解密接口返回
             resp_str = getJsonStr(resp.json()['data']).get_json_str()  # 解密接口返回数据
