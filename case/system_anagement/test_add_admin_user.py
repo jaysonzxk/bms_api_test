@@ -47,7 +47,7 @@ class testAddAdminUser(unittest.TestCase, addAdminUser):
     @classmethod
     def tearDownClass(cls):
         Log().info('正在重置数据库测试数据......')
-        databaseOperations().delete_user()
+        databaseOperations().delete_user('sys_user', 'username')
 
 
 if __name__ == '__main__':
