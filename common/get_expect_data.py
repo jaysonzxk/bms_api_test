@@ -38,12 +38,16 @@ def get_expect(*args, keyword=None, operate=None, game_type=None, expect_name='e
     elif keyword == 'log':
         res = databaseOperations().login_log_nums()
         expect_list.append(res)
+    elif keyword == 'member_group':
+        # 会员分组总数
+        res = databaseOperations().select_member_group()
+        expect_list.append(len(res))
     if len(expect) > 1:
         for key, value in expect.items():
             expect_list.append(value)
     return expect_list
 
 
-# if __name__ == '__main__':
-#     res = get_expect('bms_test_data.xlsx', 'memberCentre', 0, keyword='user_sum')
-#     print(res)
+if __name__ == '__main__':
+    res = get_expect('bms_test_data.xlsx', 'memberCentre', 21, keyword='member_group')
+    print(res)

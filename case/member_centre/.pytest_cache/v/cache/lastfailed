@@ -5,6 +5,8 @@
   "test_login_log.py::testLoginLog::test_login_log_1_23942": true,
   "test_login_log.py::testLoginLog::test_login_log_1_23949": true,
   "test_login_log.py::testLoginLog::test_login_log_1_23956": true,
+  "test_member_group_list.py::testMemberGroup::test_member_group_1_0": true,
+  "test_member_group_list.py::testMemberGroup::test_member_group_2_": true,
   "test_member_isOperate_list.py::testMemberIsOperateList::test_member_isOperate_list_1_120881": true,
   "test_member_isOperate_list.py::testMemberIsOperateList::test_member_isOperate_list_2_0": true,
   "test_member_isOperate_list.py::testMemberIsOperateList::test_member_isOperate_list_3_": true,

@@ -31,3 +31,8 @@ class getBmsToken(object):
             return token
         except Exception as e:
             self.log.error('获取token出现异常:{}，请检查登录接口请求'.format(str(e)))
+
+
+if __name__ == '__main__':
+    res = getBmsToken().get_token()
+    print(res)

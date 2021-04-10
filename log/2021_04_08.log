@@ -1,0 +1,440 @@
+[2021-04-08 14:11:27,752] - logger.py] - INFO: ----------测试开始----------
+[2021-04-08 14:11:27,752] - logger.py] - INFO: 测试场景：[会员管理-新增会员]
+[2021-04-08 14:11:27,752] - logger.py] - INFO: 测试断言-->期望值/校验值[0]
+[2021-04-08 14:11:27,753] - logger.py] - INFO: 测试断言-->实际值[{'code': 1, 'data': '', 'msg': '服务器繁忙'}]
+[2021-04-08 14:11:27,753] - logger.py] - INFO: 请求参数:{
+    "username":"auto_test",
+    "password":"123456",
+    "isOperate":false,
+    "phone":"13526355243",
+    "parentUserId":2,
+    "prizeTeamId":101,
+    "isChannel":false
+}
+[2021-04-08 14:11:27,949] - logger.py] - INFO: 请求接口:http://192.168.0.201:8041/admin/zxUser/save
+[2021-04-08 14:11:27,950] - logger.py] - INFO: 请求方法:post
+[2021-04-08 14:11:27,950] - logger.py] - INFO: 响应结果:{'code': 1, 'data': '', 'msg': '服务器繁忙'}
+[2021-04-08 14:11:28,639] - logger.py] - INFO: ----------测试开始----------
+[2021-04-08 14:11:28,640] - logger.py] - INFO: 测试场景：[会员管理-新增会员]
+[2021-04-08 14:11:28,640] - logger.py] - INFO: 测试断言-->期望值/校验值[]
+[2021-04-08 14:11:28,640] - logger.py] - INFO: 测试断言-->实际值[{'code': 1, 'data': '', 'msg': '服务器繁忙'}]
+[2021-04-08 14:11:28,640] - logger.py] - INFO: 请求参数:{
+    "username":"auto_test",
+    "password":"123456",
+    "isOperate":false,
+    "phone":"13526355243",
+    "parentUserId":2,
+    "prizeTeamId":101,
+    "isChannel":false
+}
+[2021-04-08 14:11:28,846] - logger.py] - INFO: 请求接口:http://192.168.0.201:8041/admin/zxUser/save
+[2021-04-08 14:11:28,846] - logger.py] - INFO: 请求方法:post
+[2021-04-08 14:11:28,846] - logger.py] - INFO: 响应结果:{'code': 1, 'data': '', 'msg': '服务器繁忙'}
+[2021-04-08 14:11:28,849] - logger.py] - INFO: 正在重置数据库测试数据。。。。。。
+[2021-04-08 14:15:24,506] - logger.py] - INFO: ----------测试开始----------
+[2021-04-08 14:15:24,507] - logger.py] - INFO: 测试场景：[会员管理-新增会员]
+[2021-04-08 14:15:24,507] - logger.py] - INFO: 测试断言-->期望值/校验值[0]
+[2021-04-08 14:15:24,507] - logger.py] - INFO: 测试断言-->实际值[{'code': 1, 'data': '', 'msg': '服务器繁忙'}]
+[2021-04-08 14:15:24,507] - logger.py] - INFO: 请求参数:{
+    "username":"auto_test",
+    "password":"123456",
+    "isOperate":false,
+    "phone":"13526355243",
+    "parentUserId":2,
+    "prizeTeamId":101,
+    "isChannel":false
+}
+[2021-04-08 14:15:24,691] - logger.py] - INFO: 请求接口:http://192.168.0.201:8041/admin/zxUser/save
+[2021-04-08 14:15:24,692] - logger.py] - INFO: 请求方法:post
+[2021-04-08 14:15:24,692] - logger.py] - INFO: 响应结果:{'code': 1, 'data': '', 'msg': '服务器繁忙'}
+[2021-04-08 14:15:25,390] - logger.py] - INFO: ----------测试开始----------
+[2021-04-08 14:15:25,390] - logger.py] - INFO: 测试场景：[会员管理-新增会员]
+[2021-04-08 14:15:25,390] - logger.py] - INFO: 测试断言-->期望值/校验值[]
+[2021-04-08 14:15:25,390] - logger.py] - INFO: 测试断言-->实际值[{'code': 1, 'data': '', 'msg': '服务器繁忙'}]
+[2021-04-08 14:15:25,391] - logger.py] - INFO: 请求参数:{
+    "username":"auto_test",
+    "password":"123456",
+    "isOperate":false,
+    "phone":"13526355243",
+    "parentUserId":2,
+    "prizeTeamId":101,
+    "isChannel":false
+}
+[2021-04-08 14:15:25,593] - logger.py] - INFO: 请求接口:http://192.168.0.201:8041/admin/zxUser/save
+[2021-04-08 14:15:25,593] - logger.py] - INFO: 请求方法:post
+[2021-04-08 14:15:25,593] - logger.py] - INFO: 响应结果:{'code': 1, 'data': '', 'msg': '服务器繁忙'}
+[2021-04-08 14:15:25,597] - logger.py] - INFO: 正在重置数据库测试数据。。。。。。
+[2021-04-08 14:15:41,064] - logger.py] - INFO: ----------测试开始----------
+[2021-04-08 14:15:41,064] - logger.py] - INFO: 测试场景：[会员管理-新增会员]
+[2021-04-08 14:15:41,064] - logger.py] - INFO: 测试断言-->期望值/校验值[0]
+[2021-04-08 14:15:41,064] - logger.py] - INFO: 测试断言-->实际值[{'code': 1, 'data': '', 'msg': '服务器繁忙'}]
+[2021-04-08 14:15:41,064] - logger.py] - INFO: 请求参数:{
+    "username":"auto_test",
+    "password":"123456",
+    "isOperate":false,
+    "phone":"13526355243",
+    "parentUserId":2,
+    "prizeTeamId":101,
+    "isChannel":false
+}
+[2021-04-08 14:15:41,245] - logger.py] - INFO: 请求接口:http://192.168.0.201:8041/admin/zxUser/save
+[2021-04-08 14:15:41,245] - logger.py] - INFO: 请求方法:post
+[2021-04-08 14:15:41,246] - logger.py] - INFO: 响应结果:{'code': 1, 'data': '', 'msg': '服务器繁忙'}
+[2021-04-08 14:15:41,934] - logger.py] - INFO: ----------测试开始----------
+[2021-04-08 14:15:41,934] - logger.py] - INFO: 测试场景：[会员管理-新增会员]
+[2021-04-08 14:15:41,934] - logger.py] - INFO: 测试断言-->期望值/校验值[]
+[2021-04-08 14:15:41,934] - logger.py] - INFO: 测试断言-->实际值[{'code': 1, 'data': '', 'msg': '服务器繁忙'}]
+[2021-04-08 14:15:41,934] - logger.py] - INFO: 请求参数:{
+    "username":"auto_test",
+    "password":"123456",
+    "isOperate":false,
+    "phone":"13526355243",
+    "parentUserId":2,
+    "prizeTeamId":101,
+    "isChannel":false
+}
+[2021-04-08 14:15:42,136] - logger.py] - INFO: 请求接口:http://192.168.0.201:8041/admin/zxUser/save
+[2021-04-08 14:15:42,136] - logger.py] - INFO: 请求方法:post
+[2021-04-08 14:15:42,136] - logger.py] - INFO: 响应结果:{'code': 1, 'data': '', 'msg': '服务器繁忙'}
+[2021-04-08 14:15:42,140] - logger.py] - INFO: 正在重置数据库测试数据。。。。。。
+[2021-04-08 16:34:31,861] - logger.py] - INFO: ----------测试开始----------
+[2021-04-08 16:34:31,861] - logger.py] - INFO: 测试场景：[会员管理-新增会员]
+[2021-04-08 16:34:31,861] - logger.py] - INFO: 测试断言-->期望值/校验值[0]
+[2021-04-08 16:34:31,861] - logger.py] - INFO: 测试断言-->实际值[{'code': 0, 'data': True, 'msg': ''}]
+[2021-04-08 16:34:31,861] - logger.py] - INFO: 请求参数:{
+    "username":"auto_test",
+    "password":"123456",
+    "isOperate":false,
+    "phone":"13526355243",
+    "parentUserId":2,
+    "prizeTeamId":101,
+    "isChannel":false
+}
+[2021-04-08 16:34:32,044] - logger.py] - INFO: 请求接口:http://192.168.0.201:8041/admin/zxUser/save
+[2021-04-08 16:34:32,057] - logger.py] - INFO: 请求方法:post
+[2021-04-08 16:34:32,057] - logger.py] - INFO: 响应结果:{'code': 0, 'data': True, 'msg': ''}
+[2021-04-08 16:34:32,057] - logger.py] - INFO: 测试断言[0]通过
+[2021-04-08 16:34:32,057] - logger.py] - INFO: ----------测试通过----------
+[2021-04-08 16:34:32,058] - logger.py] - INFO: ----------测试结束----------
+[2021-04-08 16:34:32,058] - logger.py] - INFO: =======================================================
+[2021-04-08 16:34:32,619] - logger.py] - INFO: ----------测试开始----------
+[2021-04-08 16:34:32,619] - logger.py] - INFO: 测试场景：[会员管理-新增会员]
+[2021-04-08 16:34:32,619] - logger.py] - INFO: 测试断言-->期望值/校验值[]
+[2021-04-08 16:34:32,619] - logger.py] - INFO: 测试断言-->实际值[{'code': 1, 'data': '', 'msg': '服务器繁忙'}]
+[2021-04-08 16:34:32,620] - logger.py] - INFO: 请求参数:{
+    "username":"auto_test",
+    "password":"123456",
+    "isOperate":false,
+    "phone":"13526355243",
+    "parentUserId":2,
+    "prizeTeamId":101,
+    "isChannel":false
+}
+[2021-04-08 16:34:32,803] - logger.py] - INFO: 请求接口:http://192.168.0.201:8041/admin/zxUser/save
+[2021-04-08 16:34:32,803] - logger.py] - INFO: 请求方法:post
+[2021-04-08 16:34:32,803] - logger.py] - INFO: 响应结果:{'code': 1, 'data': '', 'msg': '服务器繁忙'}
+[2021-04-08 16:34:32,965] - logger.py] - INFO: 正在重置数据库测试数据。。。。。。
+[2021-04-08 16:44:05,719] - logger.py] - INFO: ----------测试开始----------
+[2021-04-08 16:44:05,719] - logger.py] - INFO: 测试场景：[会员管理-新增会员]
+[2021-04-08 16:44:05,719] - logger.py] - INFO: 测试断言-->期望值/校验值[0]
+[2021-04-08 16:44:05,719] - logger.py] - INFO: 测试断言-->实际值[{'code': 1, 'data': '', 'msg': '服务器繁忙'}]
+[2021-04-08 16:44:05,719] - logger.py] - INFO: 请求参数:{
+    "username":"auto_test",
+    "password":"123456",
+    "isOperate":false,
+    "phone":"13526355243",
+    "parentUserId":2,
+    "prizeTeamId":101,
+    "isChannel":false
+}
+[2021-04-08 16:44:05,902] - logger.py] - INFO: 请求接口:http://192.168.0.201:8041/admin/zxUser/save
+[2021-04-08 16:44:05,928] - logger.py] - INFO: 请求方法:post
+[2021-04-08 16:44:05,928] - logger.py] - INFO: 响应结果:{'code': 1, 'data': '', 'msg': '服务器繁忙'}
+[2021-04-08 16:44:06,640] - logger.py] - INFO: ----------测试开始----------
+[2021-04-08 16:44:06,641] - logger.py] - INFO: 测试场景：[会员管理-新增会员]
+[2021-04-08 16:44:06,641] - logger.py] - INFO: 测试断言-->期望值/校验值[]
+[2021-04-08 16:44:06,641] - logger.py] - INFO: 测试断言-->实际值[{'code': 1, 'data': '', 'msg': '服务器繁忙'}]
+[2021-04-08 16:44:06,641] - logger.py] - INFO: 请求参数:{
+    "username":"auto_test",
+    "password":"123456",
+    "isOperate":false,
+    "phone":"13526355243",
+    "parentUserId":2,
+    "prizeTeamId":101,
+    "isChannel":false
+}
+[2021-04-08 16:44:06,845] - logger.py] - INFO: 请求接口:http://192.168.0.201:8041/admin/zxUser/save
+[2021-04-08 16:44:06,845] - logger.py] - INFO: 请求方法:post
+[2021-04-08 16:44:06,845] - logger.py] - INFO: 响应结果:{'code': 1, 'data': '', 'msg': '服务器繁忙'}
+[2021-04-08 16:44:06,849] - logger.py] - INFO: 正在重置数据库(sys_user表)测试数据。。。。。。
+[2021-04-08 16:44:06,851] - logger.py] - INFO: 正在重置数据库(zx_user_invite_code表)测试数据。。。。。。
+[2021-04-08 16:47:16,552] - logger.py] - INFO: ----------测试开始----------
+[2021-04-08 16:47:16,553] - logger.py] - INFO: 测试场景：[会员管理-新增会员]
+[2021-04-08 16:47:16,553] - logger.py] - INFO: 测试断言-->期望值/校验值[0]
+[2021-04-08 16:47:16,553] - logger.py] - INFO: 测试断言-->实际值[{'code': 0, 'data': True, 'msg': ''}]
+[2021-04-08 16:47:16,553] - logger.py] - INFO: 请求参数:{
+    "username":"auto_test",
+    "password":"123456",
+    "isOperate":false,
+    "phone":"13526355243",
+    "parentUserId":2,
+    "prizeTeamId":101,
+    "isChannel":false
+}
+[2021-04-08 16:47:16,734] - logger.py] - INFO: 请求接口:http://192.168.0.201:8041/admin/zxUser/save
+[2021-04-08 16:47:16,811] - logger.py] - INFO: 请求方法:post
+[2021-04-08 16:47:16,811] - logger.py] - INFO: 响应结果:{'code': 0, 'data': True, 'msg': ''}
+[2021-04-08 16:47:16,811] - logger.py] - INFO: 测试断言[0]通过
+[2021-04-08 16:47:16,811] - logger.py] - INFO: ----------测试通过----------
+[2021-04-08 16:47:16,811] - logger.py] - INFO: ----------测试结束----------
+[2021-04-08 16:47:16,812] - logger.py] - INFO: =======================================================
+[2021-04-08 16:47:17,235] - logger.py] - INFO: ----------测试开始----------
+[2021-04-08 16:47:17,236] - logger.py] - INFO: 测试场景：[会员管理-新增会员]
+[2021-04-08 16:47:17,236] - logger.py] - INFO: 测试断言-->期望值/校验值[]
+[2021-04-08 16:47:17,236] - logger.py] - INFO: 测试断言-->实际值[{'code': 1, 'data': '', 'msg': '手机号已经注册'}]
+[2021-04-08 16:47:17,236] - logger.py] - INFO: 请求参数:{
+    "username":"auto_test",
+    "password":"123456",
+    "isOperate":false,
+    "phone":"13526355243",
+    "parentUserId":2,
+    "prizeTeamId":101,
+    "isChannel":false
+}
+[2021-04-08 16:47:17,417] - logger.py] - INFO: 请求接口:http://192.168.0.201:8041/admin/zxUser/save
+[2021-04-08 16:47:17,417] - logger.py] - INFO: 请求方法:post
+[2021-04-08 16:47:17,417] - logger.py] - INFO: 响应结果:{'code': 1, 'data': '', 'msg': '手机号已经注册'}
+[2021-04-08 16:47:17,575] - logger.py] - INFO: 正在重置数据库(sys_user表)测试数据。。。。。。
+[2021-04-08 16:47:17,580] - logger.py] - INFO: 正在重置数据库(zx_user_invite_code表)测试数据。。。。。。
+[2021-04-08 16:48:10,443] - logger.py] - INFO: ----------测试开始----------
+[2021-04-08 16:48:10,444] - logger.py] - INFO: 测试场景：[会员管理-新增会员]
+[2021-04-08 16:48:10,444] - logger.py] - INFO: 测试断言-->期望值/校验值[0]
+[2021-04-08 16:48:10,444] - logger.py] - INFO: 测试断言-->实际值[{'code': 1, 'data': '', 'msg': '手机号已经注册'}]
+[2021-04-08 16:48:10,444] - logger.py] - INFO: 请求参数:{
+    "username":"auto_test",
+    "password":"123456",
+    "isOperate":false,
+    "phone":"13526355243",
+    "parentUserId":2,
+    "prizeTeamId":101,
+    "isChannel":false
+}
+[2021-04-08 16:48:10,746] - logger.py] - INFO: 请求接口:http://192.168.0.201:8041/admin/zxUser/save
+[2021-04-08 16:48:10,746] - logger.py] - INFO: 请求方法:post
+[2021-04-08 16:48:10,746] - logger.py] - INFO: 响应结果:{'code': 1, 'data': '', 'msg': '手机号已经注册'}
+[2021-04-08 16:48:11,258] - logger.py] - INFO: ----------测试开始----------
+[2021-04-08 16:48:11,258] - logger.py] - INFO: 测试场景：[会员管理-新增会员]
+[2021-04-08 16:48:11,258] - logger.py] - INFO: 测试断言-->期望值/校验值[]
+[2021-04-08 16:48:11,258] - logger.py] - INFO: 测试断言-->实际值[{'code': 1, 'data': '', 'msg': '手机号已经注册'}]
+[2021-04-08 16:48:11,259] - logger.py] - INFO: 请求参数:{
+    "username":"auto_test",
+    "password":"123456",
+    "isOperate":false,
+    "phone":"13526355243",
+    "parentUserId":2,
+    "prizeTeamId":101,
+    "isChannel":false
+}
+[2021-04-08 16:48:11,462] - logger.py] - INFO: 请求接口:http://192.168.0.201:8041/admin/zxUser/save
+[2021-04-08 16:48:11,462] - logger.py] - INFO: 请求方法:post
+[2021-04-08 16:48:11,462] - logger.py] - INFO: 响应结果:{'code': 1, 'data': '', 'msg': '手机号已经注册'}
+[2021-04-08 16:48:11,466] - logger.py] - INFO: 正在重置数据库(sys_user表)测试数据。。。。。。
+[2021-04-08 16:48:11,469] - logger.py] - INFO: 正在重置数据库(zx_user_invite_code表)测试数据。。。。。。
+[2021-04-08 16:48:27,605] - logger.py] - INFO: ----------测试开始----------
+[2021-04-08 16:48:27,606] - logger.py] - INFO: 测试场景：[会员管理-新增会员]
+[2021-04-08 16:48:27,606] - logger.py] - INFO: 测试断言-->期望值/校验值[0]
+[2021-04-08 16:48:27,606] - logger.py] - INFO: 测试断言-->实际值[{'code': 1, 'data': '', 'msg': '手机号已经注册'}]
+[2021-04-08 16:48:27,606] - logger.py] - INFO: 请求参数:{
+    "username":"auto_test",
+    "password":"123456",
+    "isOperate":false,
+    "phone":"13526355243",
+    "parentUserId":2,
+    "prizeTeamId":101,
+    "isChannel":false
+}
+[2021-04-08 16:48:27,844] - logger.py] - INFO: 请求接口:http://192.168.0.201:8041/admin/zxUser/save
+[2021-04-08 16:48:27,844] - logger.py] - INFO: 请求方法:post
+[2021-04-08 16:48:27,844] - logger.py] - INFO: 响应结果:{'code': 1, 'data': '', 'msg': '手机号已经注册'}
+[2021-04-08 16:48:28,358] - logger.py] - INFO: ----------测试开始----------
+[2021-04-08 16:48:28,359] - logger.py] - INFO: 测试场景：[会员管理-新增会员]
+[2021-04-08 16:48:28,359] - logger.py] - INFO: 测试断言-->期望值/校验值[]
+[2021-04-08 16:48:28,359] - logger.py] - INFO: 测试断言-->实际值[{'code': 1, 'data': '', 'msg': '手机号已经注册'}]
+[2021-04-08 16:48:28,359] - logger.py] - INFO: 请求参数:{
+    "username":"auto_test",
+    "password":"123456",
+    "isOperate":false,
+    "phone":"13526355243",
+    "parentUserId":2,
+    "prizeTeamId":101,
+    "isChannel":false
+}
+[2021-04-08 16:48:28,561] - logger.py] - INFO: 请求接口:http://192.168.0.201:8041/admin/zxUser/save
+[2021-04-08 16:48:28,561] - logger.py] - INFO: 请求方法:post
+[2021-04-08 16:48:28,561] - logger.py] - INFO: 响应结果:{'code': 1, 'data': '', 'msg': '手机号已经注册'}
+[2021-04-08 16:48:28,565] - logger.py] - INFO: 正在重置数据库(sys_user表)测试数据。。。。。。
+[2021-04-08 16:48:28,579] - logger.py] - INFO: 正在重置数据库(zx_user_invite_code表)测试数据。。。。。。
+[2021-04-08 16:58:35,825] - logger.py] - ERROR: 获取token出现异常:'token_type'，请检查登录接口请求
+[2021-04-08 16:58:35,905] - logger.py] - ERROR: 新增会员账户接口异常:'data'，请检查
+[2021-04-08 17:06:12,356] - logger.py] - ERROR: 获取token出现异常:'token_type'，请检查登录接口请求
+[2021-04-08 17:06:59,223] - logger.py] - INFO: ----------测试开始----------
+[2021-04-08 17:06:59,223] - logger.py] - INFO: 测试场景：[会员管理-新增会员]
+[2021-04-08 17:06:59,223] - logger.py] - INFO: 测试断言-->期望值/校验值[0]
+[2021-04-08 17:06:59,223] - logger.py] - INFO: 测试断言-->实际值[{'code': 0, 'data': True, 'msg': ''}]
+[2021-04-08 17:06:59,224] - logger.py] - INFO: 请求参数:{
+    "username":"auto_test",
+    "password":"123456",
+    "isOperate":false,
+    "phone":"13526355243",
+    "parentUserId":2,
+    "prizeTeamId":101,
+    "isChannel":false
+}
+[2021-04-08 17:06:59,420] - logger.py] - INFO: 请求接口:http://192.168.0.201:8041/admin/zxUser/save
+[2021-04-08 17:06:59,421] - logger.py] - INFO: 请求方法:post
+[2021-04-08 17:06:59,421] - logger.py] - INFO: 响应结果:{'code': 0, 'data': True, 'msg': ''}
+[2021-04-08 17:06:59,421] - logger.py] - INFO: 测试断言[0]通过
+[2021-04-08 17:06:59,421] - logger.py] - INFO: ----------测试通过----------
+[2021-04-08 17:06:59,421] - logger.py] - INFO: ----------测试结束----------
+[2021-04-08 17:06:59,421] - logger.py] - INFO: =======================================================
+[2021-04-08 17:07:00,053] - logger.py] - INFO: ----------测试开始----------
+[2021-04-08 17:07:00,053] - logger.py] - INFO: 测试场景：[会员管理-新增会员]
+[2021-04-08 17:07:00,053] - logger.py] - INFO: 测试断言-->期望值/校验值[]
+[2021-04-08 17:07:00,053] - logger.py] - INFO: 测试断言-->实际值[{'code': 0, 'data': True, 'msg': ''}]
+[2021-04-08 17:07:00,054] - logger.py] - INFO: 请求参数:{
+    "username":"auto_test",
+    "password":"123456",
+    "isOperate":false,
+    "phone":"13526355243",
+    "parentUserId":2,
+    "prizeTeamId":101,
+    "isChannel":false
+}
+[2021-04-08 17:07:00,241] - logger.py] - INFO: 请求接口:http://192.168.0.201:8041/admin/zxUser/save
+[2021-04-08 17:07:00,241] - logger.py] - INFO: 请求方法:post
+[2021-04-08 17:07:00,242] - logger.py] - INFO: 响应结果:{'code': 0, 'data': True, 'msg': ''}
+[2021-04-08 17:07:00,242] - logger.py] - INFO: 测试断言[]通过
+[2021-04-08 17:07:00,242] - logger.py] - INFO: ----------测试通过----------
+[2021-04-08 17:07:00,242] - logger.py] - INFO: ----------测试结束----------
+[2021-04-08 17:07:00,242] - logger.py] - INFO: =======================================================
+[2021-04-08 17:07:00,243] - logger.py] - INFO: 正在重置数据库(sys_user表)测试数据。。。。。。
+[2021-04-08 17:07:00,258] - logger.py] - INFO: 正在重置数据库(zx_user_invite_code表)测试数据。。。。。。
+[2021-04-08 17:09:44,659] - logger.py] - INFO: 正在初始化数据库测试数据。。。。。。
+[2021-04-08 17:09:44,934] - logger.py] - INFO: ----------测试开始----------
+[2021-04-08 17:09:44,934] - logger.py] - INFO: 测试场景：[会员管理-禁止返点]
+[2021-04-08 17:09:44,934] - logger.py] - INFO: 测试断言-->期望值/校验值[0]
+[2021-04-08 17:09:44,935] - logger.py] - INFO: 测试断言-->实际值[{'code': 0, 'data': '', 'msg': '禁止返点成功'}]
+[2021-04-08 17:09:44,935] - logger.py] - INFO: 请求参数:nan
+[2021-04-08 17:09:45,120] - logger.py] - INFO: 请求接口:http://192.168.0.201:8041/admin/zxUser/disableReturnPoint/miya30000
+[2021-04-08 17:09:45,120] - logger.py] - INFO: 请求方法:get
+[2021-04-08 17:09:45,123] - logger.py] - INFO: 响应结果:{'code': 0, 'data': '', 'msg': '禁止返点成功'}
+[2021-04-08 17:09:45,123] - logger.py] - INFO: 测试断言[0]通过
+[2021-04-08 17:09:45,123] - logger.py] - INFO: ----------测试通过----------
+[2021-04-08 17:09:45,123] - logger.py] - INFO: ----------测试结束----------
+[2021-04-08 17:09:45,123] - logger.py] - INFO: =======================================================
+[2021-04-08 17:09:45,352] - logger.py] - INFO: ----------测试开始----------
+[2021-04-08 17:09:45,352] - logger.py] - INFO: 测试场景：[会员管理-禁止返点]
+[2021-04-08 17:09:45,352] - logger.py] - INFO: 测试断言-->期望值/校验值[禁止返点成功]
+[2021-04-08 17:09:45,352] - logger.py] - INFO: 测试断言-->实际值[{'code': 0, 'data': '', 'msg': '禁止返点成功'}]
+[2021-04-08 17:09:45,352] - logger.py] - INFO: 请求参数:nan
+[2021-04-08 17:09:45,535] - logger.py] - INFO: 请求接口:http://192.168.0.201:8041/admin/zxUser/disableReturnPoint/miya30000
+[2021-04-08 17:09:45,536] - logger.py] - INFO: 请求方法:get
+[2021-04-08 17:09:45,536] - logger.py] - INFO: 响应结果:{'code': 0, 'data': '', 'msg': '禁止返点成功'}
+[2021-04-08 17:09:45,536] - logger.py] - INFO: 测试断言[禁止返点成功]通过
+[2021-04-08 17:09:45,536] - logger.py] - INFO: ----------测试通过----------
+[2021-04-08 17:09:45,536] - logger.py] - INFO: ----------测试结束----------
+[2021-04-08 17:09:45,536] - logger.py] - INFO: =======================================================
+[2021-04-08 17:09:45,537] - logger.py] - INFO: 正在重置数据库测试数据。。。。。。
+[2021-04-08 18:34:12,221] - logger.py] - INFO: ----------测试开始----------
+[2021-04-08 18:34:12,221] - logger.py] - INFO: 测试场景：[增加后台用户]
+[2021-04-08 18:34:12,222] - logger.py] - INFO: 测试断言-->期望值/校验值[0]
+[2021-04-08 18:34:12,222] - logger.py] - INFO: 测试断言-->实际值[{'code': 0, 'data': True, 'msg': ''}]
+[2021-04-08 18:34:12,222] - logger.py] - INFO: 请求参数:{
+    "isFinance":0,
+    "role":[
+        1
+    ],
+    "username":"auto_test",
+    "password":"123456",
+    "phone":"13524521524",
+    "lockFlag":0,
+    "inMin":null,
+    "inMax":null,
+    "outMin":null,
+    "outMax":null
+}
+[2021-04-08 18:34:12,405] - logger.py] - INFO: 请求接口:http://192.168.0.201:8041/admin/user
+[2021-04-08 18:34:12,406] - logger.py] - INFO: 请求方法:post
+[2021-04-08 18:34:12,406] - logger.py] - INFO: 响应结果:{'code': 0, 'data': True, 'msg': ''}
+[2021-04-08 18:34:12,406] - logger.py] - INFO: 测试断言[0]通过
+[2021-04-08 18:34:12,406] - logger.py] - INFO: ----------测试通过----------
+[2021-04-08 18:34:12,406] - logger.py] - INFO: ----------测试结束----------
+[2021-04-08 18:34:12,406] - logger.py] - INFO: =======================================================
+[2021-04-08 18:34:12,716] - logger.py] - INFO: ----------测试开始----------
+[2021-04-08 18:34:12,716] - logger.py] - INFO: 测试场景：[增加后台用户]
+[2021-04-08 18:34:12,716] - logger.py] - INFO: 测试断言-->期望值/校验值[]
+[2021-04-08 18:34:12,716] - logger.py] - INFO: 测试断言-->实际值[{'code': 0, 'data': True, 'msg': ''}]
+[2021-04-08 18:34:12,717] - logger.py] - INFO: 请求参数:{
+    "isFinance":0,
+    "role":[
+        1
+    ],
+    "username":"auto_test",
+    "password":"123456",
+    "phone":"13524521524",
+    "lockFlag":0,
+    "inMin":null,
+    "inMax":null,
+    "outMin":null,
+    "outMax":null
+}
+[2021-04-08 18:34:12,899] - logger.py] - INFO: 请求接口:http://192.168.0.201:8041/admin/user
+[2021-04-08 18:34:12,900] - logger.py] - INFO: 请求方法:post
+[2021-04-08 18:34:12,900] - logger.py] - INFO: 响应结果:{'code': 0, 'data': True, 'msg': ''}
+[2021-04-08 18:34:12,900] - logger.py] - INFO: 测试断言[]通过
+[2021-04-08 18:34:12,900] - logger.py] - INFO: ----------测试通过----------
+[2021-04-08 18:34:12,900] - logger.py] - INFO: ----------测试结束----------
+[2021-04-08 18:34:12,900] - logger.py] - INFO: =======================================================
+[2021-04-08 18:34:12,901] - logger.py] - INFO: 正在重置数据库测试数据......
+[2021-04-08 18:36:04,241] - logger.py] - INFO: ----------测试开始----------
+[2021-04-08 18:36:04,241] - logger.py] - INFO: 测试场景：[会员管理-新增会员]
+[2021-04-08 18:36:04,241] - logger.py] - INFO: 测试断言-->期望值/校验值[0]
+[2021-04-08 18:36:04,241] - logger.py] - INFO: 测试断言-->实际值[{'code': 0, 'data': True, 'msg': ''}]
+[2021-04-08 18:36:04,241] - logger.py] - INFO: 请求参数:{
+    "username":"auto_test",
+    "password":"123456",
+    "isOperate":false,
+    "phone":"13526355243",
+    "parentUserId":2,
+    "prizeTeamId":101,
+    "isChannel":false
+}
+[2021-04-08 18:36:04,427] - logger.py] - INFO: 请求接口:http://192.168.0.201:8041/admin/zxUser/save
+[2021-04-08 18:36:04,428] - logger.py] - INFO: 请求方法:post
+[2021-04-08 18:36:04,428] - logger.py] - INFO: 响应结果:{'code': 0, 'data': True, 'msg': ''}
+[2021-04-08 18:36:04,428] - logger.py] - INFO: 测试断言[0]通过
+[2021-04-08 18:36:04,428] - logger.py] - INFO: ----------测试通过----------
+[2021-04-08 18:36:04,429] - logger.py] - INFO: ----------测试结束----------
+[2021-04-08 18:36:04,429] - logger.py] - INFO: =======================================================
+[2021-04-08 18:36:05,041] - logger.py] - INFO: ----------测试开始----------
+[2021-04-08 18:36:05,041] - logger.py] - INFO: 测试场景：[会员管理-新增会员]
+[2021-04-08 18:36:05,042] - logger.py] - INFO: 测试断言-->期望值/校验值[]
+[2021-04-08 18:36:05,042] - logger.py] - INFO: 测试断言-->实际值[{'code': 0, 'data': True, 'msg': ''}]
+[2021-04-08 18:36:05,042] - logger.py] - INFO: 请求参数:{
+    "username":"auto_test",
+    "password":"123456",
+    "isOperate":false,
+    "phone":"13526355243",
+    "parentUserId":2,
+    "prizeTeamId":101,
+    "isChannel":false
+}
+[2021-04-08 18:36:05,220] - logger.py] - INFO: 请求接口:http://192.168.0.201:8041/admin/zxUser/save
+[2021-04-08 18:36:05,220] - logger.py] - INFO: 请求方法:post
+[2021-04-08 18:36:05,220] - logger.py] - INFO: 响应结果:{'code': 0, 'data': True, 'msg': ''}
+[2021-04-08 18:36:05,220] - logger.py] - INFO: 测试断言[]通过
+[2021-04-08 18:36:05,221] - logger.py] - INFO: ----------测试通过----------
+[2021-04-08 18:36:05,221] - logger.py] - INFO: ----------测试结束----------
+[2021-04-08 18:36:05,221] - logger.py] - INFO: =======================================================
+[2021-04-08 18:36:05,222] - logger.py] - INFO: 正在重置数据库(sys_user表)测试数据。。。。。。
+[2021-04-08 18:36:05,236] - logger.py] - INFO: 正在重置数据库(zx_user_invite_code表)测试数据。。。。。。

@@ -1,0 +1,42 @@
+[2021-04-07 09:52:55,316] - logger.py] - ERROR: 获取token出现异常:'token_type'，请检查登录接口请求
+[2021-04-07 09:52:55,403] - logger.py] - ERROR: 获取token出现异常:'token_type'，请检查登录接口请求
+[2021-04-07 09:52:55,421] - logger.py] - ERROR: 新增会员账户接口异常:'data'，请检查
+[2021-04-07 09:52:55,615] - logger.py] - ERROR: 获取token出现异常:'token_type'，请检查登录接口请求
+[2021-04-07 09:52:55,632] - logger.py] - ERROR: 新增会员账户接口异常:'data'，请检查
+[2021-04-07 09:52:55,635] - logger.py] - INFO: 正在重置数据库测试数据。。。。。。
+[2021-04-07 09:53:24,465] - logger.py] - ERROR: 获取token出现异常:'token_type'，请检查登录接口请求
+[2021-04-07 09:53:24,474] - logger.py] - ERROR: 新增会员账户接口异常:'data'，请检查
+[2021-04-07 09:54:12,134] - logger.py] - ERROR: 获取token出现异常:'token_type'，请检查登录接口请求
+[2021-04-07 09:58:21,744] - logger.py] - INFO: ----------测试开始----------
+[2021-04-07 09:58:21,744] - logger.py] - INFO: 测试场景：[会员管理-新增会员]
+[2021-04-07 09:58:21,744] - logger.py] - INFO: 测试断言-->期望值/校验值[0]
+[2021-04-07 09:58:21,744] - logger.py] - INFO: 测试断言-->实际值[{'code': 1, 'data': '', 'msg': 'Service busy'}]
+[2021-04-07 09:58:21,744] - logger.py] - INFO: 请求参数:{
+    "username":"auto_test",
+    "password":"123456",
+    "isOperate":false,
+    "phone":"13526355243",
+    "parentUserId":2,
+    "prizeTeamId":101,
+    "isChannel":false
+}
+[2021-04-07 09:58:21,930] - logger.py] - INFO: 请求接口:http://192.168.0.201:8041/admin/zxUser/save
+[2021-04-07 09:58:21,931] - logger.py] - INFO: 请求方法:post
+[2021-04-07 09:58:21,931] - logger.py] - INFO: 响应结果:{'code': 1, 'data': '', 'msg': 'Service busy'}
+[2021-04-07 09:58:22,622] - logger.py] - INFO: ----------测试开始----------
+[2021-04-07 09:58:22,623] - logger.py] - INFO: 测试场景：[会员管理-新增会员]
+[2021-04-07 09:58:22,623] - logger.py] - INFO: 测试断言-->期望值/校验值[]
+[2021-04-07 09:58:22,623] - logger.py] - INFO: 测试断言-->实际值[{'code': 1, 'data': '', 'msg': 'Service busy'}]
+[2021-04-07 09:58:22,623] - logger.py] - INFO: 请求参数:{
+    "username":"auto_test",
+    "password":"123456",
+    "isOperate":false,
+    "phone":"13526355243",
+    "parentUserId":2,
+    "prizeTeamId":101,
+    "isChannel":false
+}
+[2021-04-07 09:58:22,829] - logger.py] - INFO: 请求接口:http://192.168.0.201:8041/admin/zxUser/save
+[2021-04-07 09:58:22,830] - logger.py] - INFO: 请求方法:post
+[2021-04-07 09:58:22,831] - logger.py] - INFO: 响应结果:{'code': 1, 'data': '', 'msg': 'Service busy'}
+[2021-04-07 09:58:22,835] - logger.py] - INFO: 正在重置数据库测试数据。。。。。。

@@ -1,4 +1,4 @@
 [
-  "test_log_list.py::testLogGoogle::test_reset_google_1_0",
-  "test_log_list.py::testLogGoogle::test_reset_google_2_"
+  "test_add_admin_user.py::testAddAdminUser::test_add_admin_user_1_0",
+  "test_add_admin_user.py::testAddAdminUser::test_add_admin_user_2_"
 ]

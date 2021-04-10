@@ -209,5 +209,25 @@ class databaseOperations:
         log_nums = self.cursor.fetchall()[0][0]
         return log_nums
 
-# if __name__ == '__main__':
-#     databaseOperations().select_withdraw_status()
+    def select_member_group(self):
+        """
+        查询所有会员分组
+        :return:
+        """
+        sql = "SELECT * FROM zx_team WHERE is_del = 0"
+        self.cursor.execute(sql)
+        member_group = self.cursor.fetchall()
+        return member_group
+
+    def delete_member_group(self):
+        """
+        删除分组
+        :return:
+        """
+        sql = "delete from zx_team WHERE name = 'auto_test'"
+        self.cursor.execute(sql)
+        self.db.commit()
+
+
+if __name__ == '__main__':
+    databaseOperations().select_member_group()
