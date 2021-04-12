@@ -8,6 +8,7 @@ from common.requestmethod import myRequestMethod
 import random
 import string
 import json
+import os, sys
 
 
 def get_phone(randomlength):
@@ -27,9 +28,11 @@ def get_host(env):
     获取请求host
     :return:
     """
-    with open(r'D:\work\bms_api_test\config\host.json') as f:
+    config_path = os.path.dirname(os.path.abspath(os.path.dirname(__file__)))
+    with open(config_path + '\config\host.json') as f:
         f = json.loads(f.read())
     if env == 'test':
+        print(f['bms_test'])
         return f['bms_test']
     else:
         return f['bms_online']
