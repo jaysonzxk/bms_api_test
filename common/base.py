@@ -32,7 +32,6 @@ def get_host(env):
     with open(config_path + '\config\host.json') as f:
         f = json.loads(f.read())
     if env == 'test':
-        print(f['bms_test'])
         return f['bms_test']
     else:
         return f['bms_online']
