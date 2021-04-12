@@ -27,7 +27,7 @@ class getBmsToken(object):
         :return:token.txt
         """
         try:
-            for i in range(2):
+            while True:
                 resp = get_response(self.url, self.method,
                                     data=self.payload, headers=self.header)
                 if resp.json().get('access_token'):
